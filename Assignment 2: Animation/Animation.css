@@ -1,0 +1,28 @@
+body {
+  background-color: #5126AD;
+}
+
+#wrapper {
+  margin: 28px auto;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+#slide2 {
+  width: 900px;
+  height: 900px;
+  overflow: hidden;
+  float: right;
+}
+
+#slide2 img {
+  transition: all 10s;
+  animation: back-ani 30s linear;
+}
+
+#slide2:hover img {
+  transform: rotate(360deg);
+}

@@ -1,0 +1,38 @@
+body {
+  background-color: #7D000A;
+}
+
+#wrapper {
+  margin: 28px auto;
+  width: 1500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1 {
+  color: #D49502;
+  text-align: center;
+}
+
+#animatediv {
+  color: white;
+  font-size: 36px;
+  width: 300px;
+  height: 300px;
+  background-color: #300;
+  animation: back-ani 5s linear;
+}
+
+#slide1 {
+  width: 1400px;
+  overflow: hidden;
+}
+
+#slide1 img {
+  width: 1400px;
+  transition: all .25s;
+}
+
+#slide1:hover img {
+  transform: scale(1.1);
+}

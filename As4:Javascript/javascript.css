@@ -1,0 +1,12 @@
+nav {
+  position: fixed;
+  background-color: white;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+h1 {
+  padding-top: 100px;
+}

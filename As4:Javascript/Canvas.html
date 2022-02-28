@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="Utf-8">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="canvas.css"
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+</head>
+<body>
+  <h1>Canvas</h1>
+
+  <canvas id="canvas1" width="960" height="540"
+  </canvas>
+
+  <script>
+    var cv1 = document.getElementById("canvas1");
+    if (cv1.getContext) {
+      var ctx1 = cv1.getContext("2d");
+      ctx1.fillStyle = "rgb(200,0,0)";
+      ctx1.fillRect (10, 10, 55, 50);
+      ctx1.fillStyle = "rgba(0, 0, 200, 0.5)";
+      ctx1.fillRect (30, 30, 55, 50);
+    }
+  </script>
+
+  <body>
+</html>
